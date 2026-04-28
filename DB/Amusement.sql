@@ -2,7 +2,8 @@
 SQLyog Ultimate v8.82 
 MySQL - 5.1.50-community : Database - amusementpark
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -26,7 +27,7 @@ CREATE TABLE `adminlogin` (
   PRIMARY KEY (`UserName`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-/*Data for the table `adminlogin` */
+/*Data for the table `adminlogin` */ 
 
 insert  into `adminlogin`(`UserName`,`Password`) values ('admin','admin');
 
